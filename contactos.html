@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Isidro Finca - Promoción de Aceite de Oliva</title>
+    <!-- Fuentes desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0; /* Color gris claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        body {
+            flex: 1;
+        }
+        header {
+            background-color: #3b5323; /* Verde más profundo */
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-family: 'Playfair Display', serif; /* Nueva tipografía para el título */
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #6b8e23; /* Verde oliva más suave */
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 15px;
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3b5323;
+        }
+        main {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+        .about-section, .contacts-section {
+            margin-bottom: 40px;
+        }
+        .about-section h2, .contacts-section h2 {
+            color: #3b5323;
+            font-weight: 600;
+        }
+        .contact-item {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #3b5323;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: auto;
+        }
+
+        /* Estilos Responsivos */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                margin: 5px 10px;
+                font-size: 0.9em;
+            }
+            .contact-item {
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            nav a {
+                margin: 5px 5px;
+                font-size: 0.8em;
+            }
+            .contact-item {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Don Isidro Finca</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="compras.html">Comprar</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contactos.html">Contacto</a>
+    </nav>
+    
+    <main>
+        <section class="about-section">
+            <h2>Sobre Mí</h2>
+            <p>Soy Facundo Pizarro un estudiante de secundaria que junto con su hermano queremos continuar el legado de mis abuelos. Ante cualquier duda o consulta contactarce con nosotros. </p>
+        </section>
+
+        <section class="contacts-section">
+            <h2>Mis Contactos</h2>
+            <div class="contact-item">
+                📧 Correo: pizarrofacundo548@gmail.com
+            </div>
+            <div class="contact-item">
+                📞 Teléfono: <a href="tel:+123456789">+54 9 11 2744-2718</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024  Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
